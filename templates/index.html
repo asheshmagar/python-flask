@@ -1,0 +1,10 @@
+{% extends 'layouts/master.html' %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+{% for item in programming_langauges %}
+<p>{{ item }}</p>
+{% endfor %}
+<img class="image" src="static/images/image.jpg" alt="">
+
+{% endblock %}
